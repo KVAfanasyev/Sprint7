@@ -1,0 +1,65 @@
+@startuml
+!define RECTANGLE rectangle
+!define DATABASE database
+!define FOLDER folder
+!define CLOUD cloud
+
+title Архитектура автоматического обновления векторного индекса
+
+FOLDER "Локальная папка\n./warm_pages/themes" as SOURCE
+
+RECTANGLE "Скрипт обновления\n(update_index.py)" as SCRIPT {
+    RECTANGLE "Сканер файлов" as SCANNER
+    RECTANGLE "Хэш-проверка" as HASHCHECK
+    RECTANGLE "Разбиение на чанки" as CHUNKER
+    RECTANGLE "Генерация эмбеддингов" as EMBEDDER
+}
+
+DATABASE "ChromaDB\n./chroma_db" as CHROMADB
+
+RECTANGLE "Планировщик задач\n(Windows Task Scheduler)" as SCHEDULER
+
+RECTANGLE "Система логирования" as LOGGER {
+    FOLDER "Лог-файлы" as LOGFILES
+    DATABASE "Статистика\nupdate_stats.json" as STATS
+    DATABASE "Состояние\nindex_state.json" as STATE
+}
+
+CLOUD "Модель эмбеддингов\nall-MiniLM-L6-v2" as MODEL
+
+SOURCE --> SCANNER : "Сканирование файлов"
+SCANNER --> HASHCHECK : "Список файлов"
+HASHCHECK --> CHUNKER : "Новые/измененные файлы"
+CHUNKER --> EMBEDDER : "Текстовые чанки"
+EMBEDDER --> CHROMADB : "Векторные эмбеддинги"
+MODEL --> EMBEDDER : "Загрузка модели"
+
+SCHEDULER --> SCRIPT : "Запуск по расписанию\n(ежедневно в 6:00)"
+
+SCRIPT --> LOGGER : "Запись логов"
+LOGFILES --> STATS : "Статистика"
+LOGFILES --> STATE : "Состояние системы"
+
+note right of SOURCE
+  Источник данных:
+  • TXT, MD, RST файлы
+  • Рекурсивное сканирование
+  • Отслеживание изменений
+end note
+
+note right of SCHEDULER
+  Настройка:
+  • Ежедневно в 6:00
+  • Повтор при ошибках
+  • Запуск от SYSTEM
+end note
+
+note left of LOGGER
+  Логирование:
+  • update_index.log
+  • update_stats.json
+  • index_state.json
+  • Консольный вывод
+end note
+
+@enduml

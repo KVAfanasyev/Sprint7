@@ -1,0 +1,505 @@
+{
+  "config_version": "1.0",
+  "last_update": "2026-02-08T17:07:46.008419",
+  "file_hashes": {
+    "kvantovaya_biozoologiya_docs\\01_osnovy_kvantovoi_biozoologii.txt": {
+      "hash": "51136a3f3b3db3bd8636320895154bb5",
+      "last_modified": 1770558846.5170622,
+      "path": "kvantovaya_biozoologiya_docs\\01_osnovy_kvantovoi_biozoologii.txt",
+      "size": 394,
+      "first_seen": "2026-02-08T16:44:51.179967",
+      "last_updated": "2026-02-08T16:54:27.096143"
+    },
+    "kvantovaya_biozoologiya_docs\\02_effekt_veira.txt": {
+      "hash": "b69b0b614b50e6a18ae0a461060dda2d",
+      "last_modified": 1770557967.951746,
+      "path": "kvantovaya_biozoologiya_docs\\02_effekt_veira.txt",
+      "size": 317,
+      "first_seen": "2026-02-08T16:44:51.180469"
+    },
+    "kvantovaya_biozoologiya_docs\\03_serebrokrylaya_lastochka.txt": {
+      "hash": "8b26032d02197b0cf2a1ec1b81c04805",
+      "last_modified": 1770558846.5260804,
+      "path": "kvantovaya_biozoologiya_docs\\03_serebrokrylaya_lastochka.txt",
+      "size": 404,
+      "first_seen": "2026-02-08T16:44:51.180970",
+      "last_updated": "2026-02-08T16:54:27.096772"
+    },
+    "kvantovaya_biozoologiya_docs\\04_kvantovyi_kompas_migriruyushih_vidov.txt": {
+      "hash": "bc1d9d92fbd8ab635dce6b14f01e0f94",
+      "last_modified": 1770558846.5260804,
+      "path": "kvantovaya_biozoologiya_docs\\04_kvantovyi_kompas_migriruyushih_vidov.txt",
+      "size": 346,
+      "first_seen": "2026-02-08T16:44:51.181400",
+      "last_updated": "2026-02-08T16:54:27.097158"
+    },
+    "kvantovaya_biozoologiya_docs\\05_protokol_entengel.txt": {
+      "hash": "68c5e842805efb793d33f03f67ff5fe5",
+      "last_modified": 1770558846.5270991,
+      "path": "kvantovaya_biozoologiya_docs\\05_protokol_entengel.txt",
+      "size": 309,
+      "first_seen": "2026-02-08T16:44:51.181839",
+      "last_updated": "2026-02-08T16:54:27.097635"
+    },
+    "kvantovaya_biozoologiya_docs\\06_biokvantovyi_paradoks_hofshtadtera.txt": {
+      "hash": "365250f787ea1d8ea4a262eae9e0cc64",
+      "last_modified": 1770558846.528051,
+      "path": "kvantovaya_biozoologiya_docs\\06_biokvantovyi_paradoks_hofshtadtera.txt",
+      "size": 417,
+      "first_seen": "2026-02-08T16:44:51.182253",
+      "last_updated": "2026-02-08T16:54:27.098092"
+    },
+    "kvantovaya_biozoologiya_docs\\07_kristally_aragonita_u_mollyuskov.txt": {
+      "hash": "d1ffe179f54e0a344a01db394ade7975",
+      "last_modified": 1770558846.5290508,
+      "path": "kvantovaya_biozoologiya_docs\\07_kristally_aragonita_u_mollyuskov.txt",
+      "size": 325,
+      "first_seen": "2026-02-08T16:44:51.182673",
+      "last_updated": "2026-02-08T16:54:27.098392"
+    },
+    "kvantovaya_biozoologiya_docs\\08_teoriya_zoologicheskoi_dekogerencii.txt": {
+      "hash": "39b873a2c0f369c330095f217272bb2c",
+      "last_modified": 1770558846.5290508,
+      "path": "kvantovaya_biozoologiya_docs\\08_teoriya_zoologicheskoi_dekogerencii.txt",
+      "size": 364,
+      "first_seen": "2026-02-08T16:44:51.183187",
+      "last_updated": "2026-02-08T16:54:27.098760"
+    },
+    "kvantovaya_biozoologiya_docs\\09_kvantovo-zoologicheskaya_observatoriya_montara.txt": {
+      "hash": "5dd4ddfc269ea25d50d2b540d5d45786",
+      "last_modified": 1770558846.5300722,
+      "path": "kvantovaya_biozoologiya_docs\\09_kvantovo-zoologicheskaya_observatoriya_montara.txt",
+      "size": 375,
+      "first_seen": "2026-02-08T16:44:51.183632",
+      "last_updated": "2026-02-08T16:54:27.099163"
+    },
+    "kvantovaya_biozoologiya_docs\\10_reakciya_tu-shena.txt": {
+      "hash": "c1c4df72e70f9ae74345d9005149da8b",
+      "last_modified": 1770558846.5310543,
+      "path": "kvantovaya_biozoologiya_docs\\10_reakciya_tu-shena.txt",
+      "size": 304,
+      "first_seen": "2026-02-08T16:44:51.184143",
+      "last_updated": "2026-02-08T16:54:27.099459"
+    },
+    "kvantovaya_biozoologiya_docs\\11_podvid_lastochka_montara_albinoса.txt": {
+      "hash": "eb7302536f2e3e622bd0fbcc5a548de3",
+      "last_modified": 1770557967.9647462,
+      "path": "kvantovaya_biozoologiya_docs\\11_podvid_lastochka_montara_albinoса.txt",
+      "size": 292,
+      "first_seen": "2026-02-08T16:44:51.184593"
+    },
+    "kvantovaya_biozoologiya_docs\\12_kvantovaya_epidemiologiya.txt": {
+      "hash": "b4aae20e6d58c353d0c9d76a7ae4666f",
+      "last_modified": 1770558846.5320601,
+      "path": "kvantovaya_biozoologiya_docs\\12_kvantovaya_epidemiologiya.txt",
+      "size": 388,
+      "first_seen": "2026-02-08T16:44:51.185033",
+      "last_updated": "2026-02-08T16:54:27.100236"
+    },
+    "kvantovaya_biozoologiya_docs\\13_kodeks_etiki_kvantovoi_biozoologii.txt": {
+      "hash": "df8184fd944ae2f7aac9f36a5e9cce3f",
+      "last_modified": 1770558846.5380788,
+      "path": "kvantovaya_biozoologiya_docs\\13_kodeks_etiki_kvantovoi_biozoologii.txt",
+      "size": 307,
+      "first_seen": "2026-02-08T16:44:51.185456",
+      "last_updated": "2026-02-08T16:54:27.100559"
+    },
+    "kvantovaya_biozoologiya_docs\\14_pribor_entanglometr.txt": {
+      "hash": "75c66143b15cb8f2d3d5ab1b9a767e71",
+      "last_modified": 1770558846.542147,
+      "path": "kvantovaya_biozoologiya_docs\\14_pribor_entanglometr.txt",
+      "size": 337,
+      "first_seen": "2026-02-08T16:44:51.185861",
+      "last_updated": "2026-02-08T16:54:27.100858"
+    },
+    "kvantovaya_biozoologiya_docs\\15_fenomen_prizrachnoi_stai.txt": {
+      "hash": "009a81503b5864187bd1a4e77181f6fb",
+      "last_modified": 1770558846.5470507,
+      "path": "kvantovaya_biozoologiya_docs\\15_fenomen_prizrachnoi_stai.txt",
+      "size": 341,
+      "first_seen": "2026-02-08T16:44:51.186369",
+      "last_updated": "2026-02-08T16:54:27.101148"
+    },
+    "kvantovaya_biozoologiya_docs\\16_gen_qbz-1.txt": {
+      "hash": "52bb4cddc4ce9ff142a8a808ef08cca4",
+      "last_modified": 1770558846.5480547,
+      "path": "kvantovaya_biozoologiya_docs\\16_gen_qbz-1.txt",
+      "size": 285,
+      "first_seen": "2026-02-08T16:44:51.186803",
+      "last_updated": "2026-02-08T16:54:27.101430"
+    },
+    "kvantovaya_biozoologiya_docs\\17_kritika_so_storony_klassicheskoi_etologii.txt": {
+      "hash": "1197853fbeb0f0da4d0d6fe4edb47601",
+      "last_modified": 1770558846.5480547,
+      "path": "kvantovaya_biozoologiya_docs\\17_kritika_so_storony_klassicheskoi_etologii.txt",
+      "size": 402,
+      "first_seen": "2026-02-08T16:44:51.187216",
+      "last_updated": "2026-02-08T16:54:27.101715"
+    },
+    "kvantovaya_biozoologiya_docs\\18_primenenie_v_biokomputinge.txt": {
+      "hash": "dbe7b16a5a56107854f550530cb78a6f",
+      "last_modified": 1770558846.5490506,
+      "path": "kvantovaya_biozoologiya_docs\\18_primenenie_v_biokomputinge.txt",
+      "size": 315,
+      "first_seen": "2026-02-08T16:44:51.187633",
+      "last_updated": "2026-02-08T16:54:27.102017"
+    },
+    "kvantovaya_biozoologiya_docs\\19_kvantovoe_simbioticheskoe_kolco.txt": {
+      "hash": "81b95c37b05f44de13390d66c999df94",
+      "last_modified": 1770558846.555051,
+      "path": "kvantovaya_biozoologiya_docs\\19_kvantovoe_simbioticheskoe_kolco.txt",
+      "size": 348,
+      "first_seen": "2026-02-08T16:44:51.188102",
+      "last_updated": "2026-02-08T16:54:27.102381"
+    },
+    "kvantovaya_biozoologiya_docs\\20_sindrom_razorvannoi_zaputannosti.txt": {
+      "hash": "87ef35941ae6c401b4f154f9feb5c350",
+      "last_modified": 1770558846.5632348,
+      "path": "kvantovaya_biozoologiya_docs\\20_sindrom_razorvannoi_zaputannosti.txt",
+      "size": 457,
+      "first_seen": "2026-02-08T16:44:51.188508",
+      "last_updated": "2026-02-08T16:54:27.102670"
+    },
+    "kvantovaya_biozoologiya_docs\\21_vliyanie_solnechnyh_bur.txt": {
+      "hash": "69687311aceede96690cd6a39f86f7c7",
+      "last_modified": 1770558846.5632348,
+      "path": "kvantovaya_biozoologiya_docs\\21_vliyanie_solnechnyh_bur.txt",
+      "size": 319,
+      "first_seen": "2026-02-08T16:44:51.189010",
+      "last_updated": "2026-02-08T16:54:27.103017"
+    },
+    "kvantovaya_biozoologiya_docs\\22_polevoi_eksperiment_horus-2026.txt": {
+      "hash": "82400b5cff1a1ca79ecfc99ac7df235d",
+      "last_modified": 1770558846.5642142,
+      "path": "kvantovaya_biozoologiya_docs\\22_polevoi_eksperiment_horus-2026.txt",
+      "size": 341,
+      "first_seen": "2026-02-08T16:44:51.189409",
+      "last_updated": "2026-02-08T16:54:27.103302"
+    },
+    "kvantovaya_biozoologiya_docs\\23_artefakty_drevnih_civilizacii.txt": {
+      "hash": "d2478c47d26ddd3ab8b2200bcf2486d6",
+      "last_modified": 1770558846.5652173,
+      "path": "kvantovaya_biozoologiya_docs\\23_artefakty_drevnih_civilizacii.txt",
+      "size": 360,
+      "first_seen": "2026-02-08T16:44:51.189797",
+      "last_updated": "2026-02-08T16:54:27.103587"
+    },
+    "kvantovaya_biozoologiya_docs\\24_kvantovaya_pamyat_u_slonov.txt": {
+      "hash": "0b51205327e6c986f6095db1c5f98e8a",
+      "last_modified": 1770558846.5652173,
+      "path": "kvantovaya_biozoologiya_docs\\24_kvantovaya_pamyat_u_slonov.txt",
+      "size": 332,
+      "first_seen": "2026-02-08T16:44:51.190185",
+      "last_updated": "2026-02-08T16:54:27.103890"
+    },
+    "kvantovaya_biozoologiya_docs\\25_zookvantovyi_shum.txt": {
+      "hash": "b6a82354c93a78ccd286093df50be0ef",
+      "last_modified": 1770558846.5712135,
+      "path": "kvantovaya_biozoologiya_docs\\25_zookvantovyi_shum.txt",
+      "size": 267,
+      "first_seen": "2026-02-08T16:44:51.190616",
+      "last_updated": "2026-02-08T16:54:27.104177"
+    },
+    "kvantovaya_biozoologiya_docs\\26_ekzobiozoologicheskii_aspekt.txt": {
+      "hash": "b1129c17420c92a9c6269c9a0ce5b64b",
+      "last_modified": 1770558846.574224,
+      "path": "kvantovaya_biozoologiya_docs\\26_ekzobiozoologicheskii_aspekt.txt",
+      "size": 328,
+      "first_seen": "2026-02-08T16:44:51.191063",
+      "last_updated": "2026-02-08T16:54:27.104461"
+    },
+    "kvantovaya_biozoologiya_docs\\27_matematicheskaya_model_veira-kovalskogo.txt": {
+      "hash": "82e6df65ea1c8e504a3f61f6166bb943",
+      "last_modified": 1770558846.5792131,
+      "path": "kvantovaya_biozoologiya_docs\\27_matematicheskaya_model_veira-kovalskogo.txt",
+      "size": 292,
+      "first_seen": "2026-02-08T16:44:51.191536",
+      "last_updated": "2026-02-08T16:54:27.104742"
+    },
+    "kvantovaya_biozoologiya_docs\\28_grib-provodnik.txt": {
+      "hash": "96d916ec8f98f617ad3b7ab8f44835fa",
+      "last_modified": 1770558846.5792131,
+      "path": "kvantovaya_biozoologiya_docs\\28_grib-provodnik.txt",
+      "size": 294,
+      "first_seen": "2026-02-08T16:44:51.192108",
+      "last_updated": "2026-02-08T16:54:27.105177"
+    },
+    "kvantovaya_biozoologiya_docs\\29_kvantovaya_mimikriya.txt": {
+      "hash": "4b33b19b63e94296b597af21fd912aaa",
+      "last_modified": 1770558846.58022,
+      "path": "kvantovaya_biozoologiya_docs\\29_kvantovaya_mimikriya.txt",
+      "size": 305,
+      "first_seen": "2026-02-08T16:44:51.192576",
+      "last_updated": "2026-02-08T16:54:27.105502"
+    },
+    "kvantovaya_biozoologiya_docs\\30_budushchee_discipliny.txt": {
+      "hash": "c209eb64704c5b052dadfd5cc0669338",
+      "last_modified": 1770558846.581213,
+      "path": "kvantovaya_biozoologiya_docs\\30_budushchee_discipliny.txt",
+      "size": 313,
+      "first_seen": "2026-02-08T16:44:51.193040",
+      "last_updated": "2026-02-08T16:54:27.105796"
+    },
+    "kvantovaya_biozoologiya_docs\\README.md": {
+      "hash": "580195962a920840a69101240d793ba9",
+      "last_modified": 1770559454.3801148,
+      "path": "kvantovaya_biozoologiya_docs\\README.md",
+      "size": 5177,
+      "first_seen": "2026-02-08T16:44:51.193484",
+      "last_updated": "2026-02-08T17:07:43.658085"
+    },
+    "kvantovaya_biozoologiya_docs\\11_podvid_lastochka_montara_albinosa.txt": {
+      "hash": "8b1e8be5de059994870c8f55e77abbc9",
+      "last_modified": 1770558846.5310543,
+      "path": "kvantovaya_biozoologiya_docs\\11_podvid_lastochka_montara_albinosa.txt",
+      "size": 360,
+      "first_seen": "2026-02-08T16:54:27.099816"
+    },
+    "kvantovaya_biozoologiya_docs\\31_kvantovye_nanotrubki_v_organizme_termita.txt": {
+      "hash": "99dbb102569717de3a360436bdd6742b",
+      "last_modified": 1770559454.3346286,
+      "path": "kvantovaya_biozoologiya_docs\\31_kvantovye_nanotrubki_v_organizme_termita.txt",
+      "size": 421,
+      "first_seen": "2026-02-08T17:07:43.649495"
+    },
+    "kvantovaya_biozoologiya_docs\\32_effekt_mitchell-einsteina.txt": {
+      "hash": "246d97af2e7d61de96752983d8eca42b",
+      "last_modified": 1770559454.3356318,
+      "path": "kvantovaya_biozoologiya_docs\\32_effekt_mitchell-einsteina.txt",
+      "size": 390,
+      "first_seen": "2026-02-08T17:07:43.649776"
+    },
+    "kvantovaya_biozoologiya_docs\\33_kvantovaya_gomeostaza_mlekopitayushih.txt": {
+      "hash": "acfe617dbfbc1d083464be3695185068",
+      "last_modified": 1770559454.3400989,
+      "path": "kvantovaya_biozoologiya_docs\\33_kvantovaya_gomeostaza_mlekopitayushih.txt",
+      "size": 394,
+      "first_seen": "2026-02-08T17:07:43.650072"
+    },
+    "kvantovaya_biozoologiya_docs\\34_biofotonnyi_obmen_u_svetlyashihsya_nasekomyh.txt": {
+      "hash": "fd69bf5d95a3c8142c6e54f6bae1974f",
+      "last_modified": 1770559454.3411102,
+      "path": "kvantovaya_biozoologiya_docs\\34_biofotonnyi_obmen_u_svetlyashihsya_nasekomyh.txt",
+      "size": 344,
+      "first_seen": "2026-02-08T17:07:43.650337"
+    },
+    "kvantovaya_biozoologiya_docs\\35_kvantovaya_teoriya_stadnogo_infekta.txt": {
+      "hash": "b7a0e8ab027c648e69da7935bbbac56a",
+      "last_modified": 1770559454.3421087,
+      "path": "kvantovaya_biozoologiya_docs\\35_kvantovaya_teoriya_stadnogo_infekta.txt",
+      "size": 316,
+      "first_seen": "2026-02-08T17:07:43.650601"
+    },
+    "kvantovaya_biozoologiya_docs\\36_golubye_zony_kvantovoi_kogerentnosti.txt": {
+      "hash": "ac2d41fbd52e563cde6709b3db90308d",
+      "last_modified": 1770559454.3431265,
+      "path": "kvantovaya_biozoologiya_docs\\36_golubye_zony_kvantovoi_kogerentnosti.txt",
+      "size": 380,
+      "first_seen": "2026-02-08T17:07:43.650890"
+    },
+    "kvantovaya_biozoologiya_docs\\37_ritmy_penrose-gamova_u_pereletnyh_ptic.txt": {
+      "hash": "3c17f67d8f0fb0dfba96c51dc216a0f3",
+      "last_modified": 1770559454.3431265,
+      "path": "kvantovaya_biozoologiya_docs\\37_ritmy_penrose-gamova_u_pereletnyh_ptic.txt",
+      "size": 296,
+      "first_seen": "2026-02-08T17:07:43.651156"
+    },
+    "kvantovaya_biozoologiya_docs\\38_kvantovyi_metabolizm_holodnokrovnyh.txt": {
+      "hash": "938084316fab5d1e5ba9b0a89714d888",
+      "last_modified": 1770559454.344107,
+      "path": "kvantovaya_biozoologiya_docs\\38_kvantovyi_metabolizm_holodnokrovnyh.txt",
+      "size": 330,
+      "first_seen": "2026-02-08T17:07:43.651501"
+    },
+    "kvantovaya_biozoologiya_docs\\39_effekt_obratnoi_kvantovoi_svyazi_u_primatov.txt": {
+      "hash": "85cea8f9d70f443301b7c6d0c0a4419a",
+      "last_modified": 1770559454.3451066,
+      "path": "kvantovaya_biozoologiya_docs\\39_effekt_obratnoi_kvantovoi_svyazi_u_primatov.txt",
+      "size": 352,
+      "first_seen": "2026-02-08T17:07:43.651764"
+    },
+    "kvantovaya_biozoologiya_docs\\40_kvantovaya_immunologiya.txt": {
+      "hash": "01938cac23a8fbecd9d750b26a9925cd",
+      "last_modified": 1770559454.3451066,
+      "path": "kvantovaya_biozoologiya_docs\\40_kvantovaya_immunologiya.txt",
+      "size": 328,
+      "first_seen": "2026-02-08T17:07:43.652061"
+    },
+    "kvantovaya_biozoologiya_docs\\41_polyarizaciya_kvantovogo_polya_u_stadnyh_kopytnyh.txt": {
+      "hash": "732cc7330a9491bffb64284e60e5bb6f",
+      "last_modified": 1770559454.346107,
+      "path": "kvantovaya_biozoologiya_docs\\41_polyarizaciya_kvantovogo_polya_u_stadnyh_kopytnyh.txt",
+      "size": 352,
+      "first_seen": "2026-02-08T17:07:43.652342"
+    },
+    "kvantovaya_biozoologiya_docs\\42_hameleony_kvantovoi_superpozicii.txt": {
+      "hash": "ed3f39337f8615c08c3bd139f0a45342",
+      "last_modified": 1770559454.346107,
+      "path": "kvantovaya_biozoologiya_docs\\42_hameleony_kvantovoi_superpozicii.txt",
+      "size": 351,
+      "first_seen": "2026-02-08T17:07:43.652615"
+    },
+    "kvantovaya_biozoologiya_docs\\43_kvantovaya_gidrodinamika_stai.txt": {
+      "hash": "d34529243ee2ce2c58ffa09470b49bc8",
+      "last_modified": 1770559454.3471072,
+      "path": "kvantovaya_biozoologiya_docs\\43_kvantovaya_gidrodinamika_stai.txt",
+      "size": 338,
+      "first_seen": "2026-02-08T17:07:43.652892"
+    },
+    "kvantovaya_biozoologiya_docs\\44_effekt_kvantovogo_usileniya_chutya_u_hischnikov.txt": {
+      "hash": "2854c160871063535930714a57b4b674",
+      "last_modified": 1770559454.3481066,
+      "path": "kvantovaya_biozoologiya_docs\\44_effekt_kvantovogo_usileniya_chutya_u_hischnikov.txt",
+      "size": 376,
+      "first_seen": "2026-02-08T17:07:43.653173"
+    },
+    "kvantovaya_biozoologiya_docs\\45_kvantovye_bionichevye_struktury.txt": {
+      "hash": "5cdaa10c33cdb15cafee46e03878dee7",
+      "last_modified": 1770559454.3481066,
+      "path": "kvantovaya_biozoologiya_docs\\45_kvantovye_bionichevye_struktury.txt",
+      "size": 321,
+      "first_seen": "2026-02-08T17:07:43.653474"
+    },
+    "kvantovaya_biozoologiya_docs\\46_teoriya_kvantovogo_parazitizma.txt": {
+      "hash": "3ef119427bfb76a2fbac2873ee101955",
+      "last_modified": 1770559454.3481066,
+      "path": "kvantovaya_biozoologiya_docs\\46_teoriya_kvantovogo_parazitizma.txt",
+      "size": 335,
+      "first_seen": "2026-02-08T17:07:43.653741"
+    },
+    "kvantovaya_biozoologiya_docs\\47_kvantovaya_gerontologiya_jivotnyh.txt": {
+      "hash": "9c0aca505b2257f6115a019cb9a2ca4a",
+      "last_modified": 1770559454.349106,
+      "path": "kvantovaya_biozoologiya_docs\\47_kvantovaya_gerontologiya_jivotnyh.txt",
+      "size": 257,
+      "first_seen": "2026-02-08T17:07:43.654038"
+    },
+    "kvantovaya_biozoologiya_docs\\48_bio-kvantovye_sensornye_seti_u_nasekomyh.txt": {
+      "hash": "9085cfe6ab990eee5aefb77615cd980e",
+      "last_modified": 1770559454.349106,
+      "path": "kvantovaya_biozoologiya_docs\\48_bio-kvantovye_sensornye_seti_u_nasekomyh.txt",
+      "size": 377,
+      "first_seen": "2026-02-08T17:07:43.654320"
+    },
+    "kvantovaya_biozoologiya_docs\\49_kvantovaya_transkripciya_dnk_u_ptic.txt": {
+      "hash": "e26fe81fa027c11068cb9cdf392c17a9",
+      "last_modified": 1770559454.3501065,
+      "path": "kvantovaya_biozoologiya_docs\\49_kvantovaya_transkripciya_dnk_u_ptic.txt",
+      "size": 298,
+      "first_seen": "2026-02-08T17:07:43.654590"
+    },
+    "kvantovaya_biozoologiya_docs\\50_effekt_holonomicheskoi_pamyati_u_delfinov.txt": {
+      "hash": "9142f1a934fb5926b4a57b8a216d78b1",
+      "last_modified": 1770559454.3561091,
+      "path": "kvantovaya_biozoologiya_docs\\50_effekt_holonomicheskoi_pamyati_u_delfinov.txt",
+      "size": 351,
+      "first_seen": "2026-02-08T17:07:43.654903"
+    },
+    "kvantovaya_biozoologiya_docs\\51_kvantovaya_termodinamika_ekosistem.txt": {
+      "hash": "c8df10708f18d301ec90b5c11336c1ab",
+      "last_modified": 1770559454.3561091,
+      "path": "kvantovaya_biozoologiya_docs\\51_kvantovaya_termodinamika_ekosistem.txt",
+      "size": 332,
+      "first_seen": "2026-02-08T17:07:43.655224"
+    },
+    "kvantovaya_biozoologiya_docs\\52_psi-kvantovaya_svyaz_u_socialnyh_nasekomyh.txt": {
+      "hash": "8cf94944cb15a93b81b6b48c74eec35d",
+      "last_modified": 1770559454.3621209,
+      "path": "kvantovaya_biozoologiya_docs\\52_psi-kvantovaya_svyaz_u_socialnyh_nasekomyh.txt",
+      "size": 316,
+      "first_seen": "2026-02-08T17:07:43.655504"
+    },
+    "kvantovaya_biozoologiya_docs\\53_kvantovaya_evoluciya_simbiogeneza.txt": {
+      "hash": "dcbb357b321e8dceccde83cd4842836f",
+      "last_modified": 1770559454.3631165,
+      "path": "kvantovaya_biozoologiya_docs\\53_kvantovaya_evoluciya_simbiogeneza.txt",
+      "size": 348,
+      "first_seen": "2026-02-08T17:07:43.655782"
+    },
+    "kvantovaya_biozoologiya_docs\\54_bio-kvantovye_kristally_v_organizme_golubei.txt": {
+      "hash": "b58173af2e63ef15d487fdff7db6f006",
+      "last_modified": 1770559454.3641088,
+      "path": "kvantovaya_biozoologiya_docs\\54_bio-kvantovye_kristally_v_organizme_golubei.txt",
+      "size": 344,
+      "first_seen": "2026-02-08T17:07:43.656083"
+    },
+    "kvantovaya_biozoologiya_docs\\55_kvantovaya_nejroplasticnost.txt": {
+      "hash": "8be74591976df1cb47bd9b1035ab9bad",
+      "last_modified": 1770559454.3641088,
+      "path": "kvantovaya_biozoologiya_docs\\55_kvantovaya_nejroplasticnost.txt",
+      "size": 354,
+      "first_seen": "2026-02-08T17:07:43.656370"
+    },
+    "kvantovaya_biozoologiya_docs\\56_effekt_kvantovoi_sinhronizacii_cirkadnyh_ritmov.txt": {
+      "hash": "05b7aadf36b28a7b29309fe5adb8245f",
+      "last_modified": 1770559454.3651063,
+      "path": "kvantovaya_biozoologiya_docs\\56_effekt_kvantovoi_sinhronizacii_cirkadnyh_ritmov.txt",
+      "size": 334,
+      "first_seen": "2026-02-08T17:07:43.656648"
+    },
+    "kvantovaya_biozoologiya_docs\\57_kvantovaya_bioakustika_kitov.txt": {
+      "hash": "8e78c040119dd422efef7b36ecd45e6d",
+      "last_modified": 1770559454.3661082,
+      "path": "kvantovaya_biozoologiya_docs\\57_kvantovaya_bioakustika_kitov.txt",
+      "size": 335,
+      "first_seen": "2026-02-08T17:07:43.656932"
+    },
+    "kvantovaya_biozoologiya_docs\\58_protokol_kvantovoi_adaptacii_k_srede.txt": {
+      "hash": "d0f898958498befdb191d8e19ff5121e",
+      "last_modified": 1770559454.3731067,
+      "path": "kvantovaya_biozoologiya_docs\\58_protokol_kvantovoi_adaptacii_k_srede.txt",
+      "size": 330,
+      "first_seen": "2026-02-08T17:07:43.657205"
+    },
+    "kvantovaya_biozoologiya_docs\\59_kvantovaya_ekologiya_populyacionnyh_voln.txt": {
+      "hash": "9698da82e0570506b670306294cd3195",
+      "last_modified": 1770559454.3731067,
+      "path": "kvantovaya_biozoologiya_docs\\59_kvantovaya_ekologiya_populyacionnyh_voln.txt",
+      "size": 265,
+      "first_seen": "2026-02-08T17:07:43.657476"
+    },
+    "kvantovaya_biozoologiya_docs\\60_kvantovaya_zoosemiotika.txt": {
+      "hash": "cef5b9e8261986c3e7696b6ffbafe4eb",
+      "last_modified": 1770559454.3791058,
+      "path": "kvantovaya_biozoologiya_docs\\60_kvantovaya_zoosemiotika.txt",
+      "size": 305,
+      "first_seen": "2026-02-08T17:07:43.657745"
+    }
+  },
+  "total_files": 62,
+  "total_chunks": 67,
+  "update_history": [
+    {
+      "timestamp": "2026-02-08T16:44:54.837652",
+      "new_files": 31,
+      "modified_files": 0,
+      "chunks_added": 34,
+      "total_chunks": 34,
+      "errors": 0,
+      "duration_seconds": 3.72
+    },
+    {
+      "timestamp": "2026-02-08T16:54:29.579760",
+      "new_files": 1,
+      "modified_files": 29,
+      "chunks_added": 33,
+      "total_chunks": 33,
+      "errors": 0,
+      "duration_seconds": 2.55
+    },
+    {
+      "timestamp": "2026-02-08T17:07:46.008430",
+      "new_files": 30,
+      "modified_files": 1,
+      "chunks_added": 38,
+      "total_chunks": 67,
+      "errors": 0,
+      "duration_seconds": 2.38
+    }
+  ],
+  "settings": {
+    "chunk_size": 500,
+    "chunk_overlap": 50,
+    "model_name": "all-MiniLM-L6-v2"
+  }
+}

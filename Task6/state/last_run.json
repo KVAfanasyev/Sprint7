@@ -1,0 +1,13 @@
+{
+  "last_run_timestamp": "2026-02-08T17:07:46.012233",
+  "status": "success",
+  "new_chunks": 38,
+  "total_chunks": 67,
+  "duration_seconds": 2.38,
+  "errors_count": 0,
+  "config_used": {
+    "model": "all-MiniLM-L6-v2",
+    "chunk_size": 500,
+    "chunk_overlap": 50
+  }
+}
