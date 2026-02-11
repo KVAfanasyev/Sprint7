@@ -1,0 +1,208 @@
+@startuml
+actor Пользователь
+participant "Telegram Bot" as Bot
+participant "SecurityLayer" as Security
+participant "EnhancedRetriever" as Retriever
+participant "ChromaSearch" as Chroma
+participant "RAGPipeline" as RAG
+participant "ResponseQualityAnalyzer" as Quality
+participant "QueryLogger" as Logger
+
+== Обработка запроса ==
+
+Activate Пользователь
+Activate Logger
+Пользователь -> Bot: Отправляет сообщение/команду
+activate Bot
+
+Bot -> Security: sanitize_input(query)
+activate Security
+
+alt **⚠️ CRITICAL: Запрос содержит запрещенные фразы/паттерны**
+    Security --> Bot: is_valid = false, reason
+    Bot --> Пользователь: Запрос заблокирован
+    Bot -> Logger: log_query(security_blocks=1)
+
+else Запрос безопасен
+    Security --> Bot: is_valid = true, sanitized_query
+    deactivate Security
+end
+
+Bot -> Retriever: multi_level_search(query)
+activate Retriever
+
+== Процесс поиска ==
+
+Retriever -> Chroma: search() - Уровень 1 (семантический)
+activate Chroma
+
+alt **⚠️ CRITICAL: Индекс не инициализирован**
+    Chroma --> Retriever: collection = null
+    Retriever --> Bot: results = null
+    Bot --> Пользователь: ❌ Индекс не доступен\nТребуется инициализация
+    Bot -> Logger: log_query(found_chunks=false)
+
+else **⚠️ CRITICAL: Ошибка ChromaDB / Timeout**
+    Chroma --> Retriever: Exception / Timeout
+    Retriever --> Bot: results = null
+    Bot --> Пользователь: ❌ Ошибка базы знаний
+    Bot -> Logger: log_query(found_chunks=false)
+else Индекс доступен
+    Chroma --> Retriever: primary_results
+    deactivate Chroma
+end
+
+Retriever -> Retriever: extract_keywords() из топ-3 документов
+Retriever -> Chroma: search() - Уровень 2 (по ключевым словам)
+activate Chroma
+
+alt **⚠️ CRITICAL: Keyword search failed**
+    Chroma --> Retriever: пустой/ошибочный ответ
+    note right of Retriever: Используем только primary_results
+else
+    Chroma --> Retriever: keyword_results
+    deactivate Chroma
+end
+
+alt Результаты найдены
+    Retriever -> Retriever: _merge_results()
+    Retriever -> Retriever: кэширование результатов
+    Retriever --> Bot: merged_results
+else **⚠️ CRITICAL: Результаты не найдены (пустой чанк)**
+    Retriever --> Bot: primary_results / null
+    note right of Retriever: Нет релевантных документов
+end
+deactivate Retriever
+
+== Генерация ответа ==
+
+Bot -> RAG: generate_enhanced_response(query, results)
+activate RAG
+
+alt **⚠️ CRITICAL: Результаты поиска пусты**
+    RAG --> Bot: Ответ "Информация не найдена"
+    Bot --> Пользователь: Ответ об отсутствии информации
+    Bot -> Logger: log_query(found_chunks=false)
+
+else RAG режим выключен или модели недоступны
+    RAG -> RAG: _generate_structured_simple_answer()
+    RAG -> Quality: analyze_response()
+    activate Quality
+    Quality --> RAG: quality_analysis
+    deactivate Quality
+    RAG --> Bot: simple_answer + analysis
+    Bot --> Пользователь: Результаты поиска (без LLM)
+    Bot -> Logger: log_query(rag_mode=false)
+
+else RAG режим включен и модели доступны
+    RAG -> Security: validate_contexts(contexts)
+    activate Security
+
+    alt **⚠️ CRITICAL: Контексты не прошли валидацию**
+        Security --> RAG: rejected_contexts
+        note right of RAG: Контекст содержит опасный контент
+        deactivate Security
+    else Контексты безопасны
+        Security --> RAG: safe_contexts
+        deactivate Security
+    end
+
+    RAG -> RAG: generate_enhanced_prompt()
+    RAG -> RAG: call_llm_with_retry()
+
+    == Возможные сбои при генерации ==
+
+    alt **⚠️ CRITICAL: Ollama не отвечает / Таймаут**
+        RAG --> RAG: retry (эксп. задержка)
+        note right
+            Попытка 1-2
+            ⏱ 2^N сек
+        end note
+        else Все попытки исчерпаны
+            RAG -> RAG: fallback на простой ответ
+            note right of RAG
+                ❌ LLM недоступна
+                ⚠️ Режим понижения
+            end note
+        end
+
+    else **⚠️ CRITICAL: Ошибка API Ollama (4xx/5xx)**
+        RAG --> RAG: retry/fallback
+
+    else **⚠️ CRITICAL: LLM вернула пустой/короткий ответ (<50 символов)**
+        RAG --> RAG: fallback на простой ответ
+
+    else LLM ответила успешно
+        RAG -> RAG: обработка ответа
+
+        alt **⚠️ Ответ слишком длинный (>max_input_length)**
+            RAG -> RAG: обрезка с поиском границ предложений
+            note right
+                Ищет .!?\n
+                для аккуратной обрезки
+            end note
+        end
+
+        RAG -> Security: validate_response(response)
+        activate Security
+
+        alt **⚠️ CRITICAL: Ответ содержит запрещенный контент**
+            Security --> RAG: is_valid = false
+            RAG --> Bot: ❌ Сообщение об ошибке безопасности
+            deactivate Security
+            Bot --> Пользователь: Ответ заблокирован
+            Bot -> Logger: log_query(security_blocks++)
+
+            end
+        else Ответ безопасен
+            Security --> RAG: is_valid = true
+            deactivate Security
+        end
+
+        RAG -> Quality: analyze_response()
+        activate Quality
+        Quality --> RAG: quality_analysis
+        deactivate Quality
+
+        alt **⚠️ Низкое качество ответа (score < 0.6)**
+            RAG --> RAG: логирование предупреждения
+            note right
+                Возможные причины:
+                - повторения
+                - малая длина
+                - плохое покрытие
+            end note
+        end
+
+        RAG -> RAG: кэширование ответа
+        RAG --> Bot: enhanced_response + analysis
+        deactivate RAG
+
+== Форматирование и отправка ==
+
+Bot -> Bot: format_response_for_telegram()
+note right
+    Очистка Markdown,
+    разбивка на части при >4000 символов
+end note
+
+Bot --> Пользователь: Форматированный ответ
+Deactivate Пользователь
+
+Bot -> Logger: log_query()
+activate Logger
+note right
+    Запись:
+    - время
+    - источники
+    - качество
+    - режим
+    - блокировки
+    - ошибки
+end note
+Logger --> Bot
+deactivate Logger
+
+deactivate Bot
+
+@enduml

@@ -1,0 +1,49 @@
+{
+    "knowledge_base": {
+        "source_dir": "./kvantovaya_biozoologiya_docs",
+        "extensions": [".txt", ".md", ".rst", ".text", ".json", ".py", ".html"]
+    },
+    "vector_index": {
+        "collection_name": "knowledge_base",
+        "db_path": "./chroma_db",
+        "model_name": "all-MiniLM-L6-v2"
+    },
+    "update_settings": {
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "batch_size": 1000,
+        "check_interval_minutes": 1440
+    },
+    "scheduler": {
+        "enabled": true,
+        "schedule": "0 6 * * *",
+        "timezone": "Europe/Moscow",
+        "max_retries": 3,
+        "retry_interval_minutes": 10
+    },
+    "logging": {
+        "log_file": "./logs/update_index.log",
+        "max_size_mb": 10,
+        "backup_count": 5,
+        "level": "INFO",
+        "console_output": true
+    },
+    "state_files": {
+        "state_file": "./state/index_state.json",
+        "stats_file": "./stats/update_stats.json",
+        "last_run_file": "./state/last_run.json",
+        "config_backup": "./backups/config_backup.json"
+    },
+    "performance": {
+        "max_concurrent_files": 10,
+        "embedding_batch_size": 32,
+        "use_gpu": false
+    },
+    "notification": {
+        "enabled": false,
+        "email": "admin@example.com",
+        "webhook_url": "",
+        "notify_on_error": true,
+        "notify_on_success": false
+    }
+}

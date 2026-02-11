@@ -1,0 +1,262 @@
+2026-02-08 16:44:38,937 - INFO - Логирование настроено. Уровень: 20, Файл: ./logs/update_index.log
+2026-02-08 16:44:39,006 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-08 16:44:47,173 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-08 16:44:50,519 - INFO - ChromaDB инициализирована. Путь: ./chroma_db, модель: all-MiniLM-L6-v2
+2026-02-08 16:44:51,083 - INFO - Создано начальное состояние
+2026-02-08 16:44:51,122 - INFO - ============================================================
+2026-02-08 16:44:51,124 - INFO - НАЧАЛО ОБНОВЛЕНИЯ ИНДЕКСА: 2026-02-08 16:44:51
+2026-02-08 16:44:51,125 - INFO - Источник данных: kvantovaya_biozoologiya_docs
+2026-02-08 16:44:51,125 - INFO - Модель: all-MiniLM-L6-v2, Размер чанка: 500, Перекрытие: 50
+2026-02-08 16:44:51,174 - INFO - Сканирование директории: kvantovaya_biozoologiya_docs
+2026-02-08 16:44:51,175 - INFO - Поддерживаемые расширения: .md, .txt, .py, .html, .json, .rst, .text
+2026-02-08 16:44:51,193 - INFO - Просканировано файлов: 31
+2026-02-08 16:44:51,194 - INFO - Текстовых файлов для обработки: 31
+2026-02-08 16:44:51,194 - INFO - Найдено новых файлов: 31
+2026-02-08 16:44:51,198 - INFO - Найдено измененных файлов: 0
+2026-02-08 16:44:51,204 - INFO - Обработка новых файлов...
+2026-02-08 16:44:51,204 - INFO - Добавление нового файла: 01_osnovy_kvantovoi_biozoologii.txt
+2026-02-08 16:44:52,181 - INFO - Добавлено 1 чанков из 01_osnovy_kvantovoi_biozoologii.txt
+2026-02-08 16:44:52,185 - INFO - Добавление нового файла: 02_effekt_veira.txt
+2026-02-08 16:44:52,335 - INFO - Добавлено 1 чанков из 02_effekt_veira.txt
+2026-02-08 16:44:52,336 - INFO - Добавление нового файла: 03_serebrokrylaya_lastochka.txt
+2026-02-08 16:44:52,407 - INFO - Добавлено 1 чанков из 03_serebrokrylaya_lastochka.txt
+2026-02-08 16:44:52,408 - INFO - Добавление нового файла: 04_kvantovyi_kompas_migriruyushih_vidov.txt
+2026-02-08 16:44:52,469 - INFO - Добавлено 1 чанков из 04_kvantovyi_kompas_migriruyushih_vidov.txt
+2026-02-08 16:44:52,470 - INFO - Добавление нового файла: 05_protokol_entengel.txt
+2026-02-08 16:44:52,530 - INFO - Добавлено 1 чанков из 05_protokol_entengel.txt
+2026-02-08 16:44:52,530 - INFO - Добавление нового файла: 06_biokvantovyi_paradoks_hofshtadtera.txt
+2026-02-08 16:44:52,595 - INFO - Добавлено 1 чанков из 06_biokvantovyi_paradoks_hofshtadtera.txt
+2026-02-08 16:44:52,595 - INFO - Добавление нового файла: 07_kristally_aragonita_u_mollyuskov.txt
+2026-02-08 16:44:52,657 - INFO - Добавлено 1 чанков из 07_kristally_aragonita_u_mollyuskov.txt
+2026-02-08 16:44:52,658 - INFO - Добавление нового файла: 08_teoriya_zoologicheskoi_dekogerencii.txt
+2026-02-08 16:44:52,737 - INFO - Добавлено 1 чанков из 08_teoriya_zoologicheskoi_dekogerencii.txt
+2026-02-08 16:44:52,737 - INFO - Добавление нового файла: 09_kvantovo-zoologicheskaya_observatoriya_montara.txt
+2026-02-08 16:44:52,789 - INFO - Добавлено 1 чанков из 09_kvantovo-zoologicheskaya_observatoriya_montara.txt
+2026-02-08 16:44:52,789 - INFO - Добавление нового файла: 10_reakciya_tu-shena.txt
+2026-02-08 16:44:52,845 - INFO - Добавлено 1 чанков из 10_reakciya_tu-shena.txt
+2026-02-08 16:44:52,846 - INFO - Добавление нового файла: 11_podvid_lastochka_montara_albinoса.txt
+2026-02-08 16:44:52,905 - INFO - Добавлено 1 чанков из 11_podvid_lastochka_montara_albinoса.txt
+2026-02-08 16:44:52,906 - INFO - Добавление нового файла: 12_kvantovaya_epidemiologiya.txt
+2026-02-08 16:44:52,980 - INFO - Добавлено 1 чанков из 12_kvantovaya_epidemiologiya.txt
+2026-02-08 16:44:52,981 - INFO - Добавление нового файла: 13_kodeks_etiki_kvantovoi_biozoologii.txt
+2026-02-08 16:44:53,030 - INFO - Добавлено 1 чанков из 13_kodeks_etiki_kvantovoi_biozoologii.txt
+2026-02-08 16:44:53,032 - INFO - Добавление нового файла: 14_pribor_entanglometr.txt
+2026-02-08 16:44:53,091 - INFO - Добавлено 1 чанков из 14_pribor_entanglometr.txt
+2026-02-08 16:44:53,091 - INFO - Добавление нового файла: 15_fenomen_prizrachnoi_stai.txt
+2026-02-08 16:44:53,150 - INFO - Добавлено 1 чанков из 15_fenomen_prizrachnoi_stai.txt
+2026-02-08 16:44:53,151 - INFO - Добавление нового файла: 16_gen_qbz-1.txt
+2026-02-08 16:44:53,216 - INFO - Добавлено 1 чанков из 16_gen_qbz-1.txt
+2026-02-08 16:44:53,216 - INFO - Добавление нового файла: 17_kritika_so_storony_klassicheskoi_etologii.txt
+2026-02-08 16:44:53,282 - INFO - Добавлено 1 чанков из 17_kritika_so_storony_klassicheskoi_etologii.txt
+2026-02-08 16:44:53,282 - INFO - Добавление нового файла: 18_primenenie_v_biokomputinge.txt
+2026-02-08 16:44:53,354 - INFO - Добавлено 1 чанков из 18_primenenie_v_biokomputinge.txt
+2026-02-08 16:44:53,354 - INFO - Добавление нового файла: 19_kvantovoe_simbioticheskoe_kolco.txt
+2026-02-08 16:44:53,433 - INFO - Добавлено 1 чанков из 19_kvantovoe_simbioticheskoe_kolco.txt
+2026-02-08 16:44:53,433 - INFO - Добавление нового файла: 20_sindrom_razorvannoi_zaputannosti.txt
+2026-02-08 16:44:53,532 - INFO - Добавлено 1 чанков из 20_sindrom_razorvannoi_zaputannosti.txt
+2026-02-08 16:44:53,533 - INFO - Добавление нового файла: 21_vliyanie_solnechnyh_bur.txt
+2026-02-08 16:44:53,619 - INFO - Добавлено 1 чанков из 21_vliyanie_solnechnyh_bur.txt
+2026-02-08 16:44:53,620 - INFO - Добавление нового файла: 22_polevoi_eksperiment_horus-2026.txt
+2026-02-08 16:44:53,693 - INFO - Добавлено 1 чанков из 22_polevoi_eksperiment_horus-2026.txt
+2026-02-08 16:44:53,694 - INFO - Добавление нового файла: 23_artefakty_drevnih_civilizacii.txt
+2026-02-08 16:44:53,810 - INFO - Добавлено 1 чанков из 23_artefakty_drevnih_civilizacii.txt
+2026-02-08 16:44:53,810 - INFO - Добавление нового файла: 24_kvantovaya_pamyat_u_slonov.txt
+2026-02-08 16:44:53,867 - INFO - Добавлено 1 чанков из 24_kvantovaya_pamyat_u_slonov.txt
+2026-02-08 16:44:53,867 - INFO - Добавление нового файла: 25_zookvantovyi_shum.txt
+2026-02-08 16:44:53,941 - INFO - Добавлено 1 чанков из 25_zookvantovyi_shum.txt
+2026-02-08 16:44:53,941 - INFO - Добавление нового файла: 26_ekzobiozoologicheskii_aspekt.txt
+2026-02-08 16:44:54,055 - INFO - Добавлено 1 чанков из 26_ekzobiozoologicheskii_aspekt.txt
+2026-02-08 16:44:54,056 - INFO - Добавление нового файла: 27_matematicheskaya_model_veira-kovalskogo.txt
+2026-02-08 16:44:54,130 - INFO - Добавлено 1 чанков из 27_matematicheskaya_model_veira-kovalskogo.txt
+2026-02-08 16:44:54,131 - INFO - Добавление нового файла: 28_grib-provodnik.txt
+2026-02-08 16:44:54,217 - INFO - Добавлено 1 чанков из 28_grib-provodnik.txt
+2026-02-08 16:44:54,218 - INFO - Добавление нового файла: 29_kvantovaya_mimikriya.txt
+2026-02-08 16:44:54,296 - INFO - Добавлено 1 чанков из 29_kvantovaya_mimikriya.txt
+2026-02-08 16:44:54,296 - INFO - Добавление нового файла: 30_budushchee_discipliny.txt
+2026-02-08 16:44:54,407 - INFO - Добавлено 1 чанков из 30_budushchee_discipliny.txt
+2026-02-08 16:44:54,407 - INFO - Добавление нового файла: README.md
+2026-02-08 16:44:54,794 - INFO - Добавлено 4 чанков из README.md
+2026-02-08 16:44:54,795 - INFO - Очистка удаленных файлов...
+2026-02-08 16:44:54,841 - INFO - ============================================================
+2026-02-08 16:44:54,842 - INFO - ОБНОВЛЕНИЕ ЗАВЕРШЕНО УСПЕШНО
+2026-02-08 16:44:54,854 - INFO - Добавлено чанков: 34
+2026-02-08 16:44:54,854 - INFO - Всего чанков в индексе: 34
+2026-02-08 16:44:54,855 - INFO - Время выполнения: 3.72 сек
+2026-02-08 16:44:54,856 - INFO - Скорость: 9.14 чанков/сек
+2026-02-08 16:44:54,856 - INFO - Ошибок: 0
+2026-02-08 16:44:54,857 - INFO - ============================================================
+2026-02-08 16:54:15,711 - INFO - Логирование настроено. Уровень: 20, Файл: ./logs/update_index.log
+2026-02-08 16:54:15,752 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-08 16:54:23,112 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-08 16:54:27,018 - INFO - ChromaDB инициализирована. Путь: ./chroma_db, модель: all-MiniLM-L6-v2
+2026-02-08 16:54:27,021 - INFO - Загружено состояние из ./state/index_state.json
+2026-02-08 16:54:27,027 - INFO - ============================================================
+2026-02-08 16:54:27,034 - INFO - НАЧАЛО ОБНОВЛЕНИЯ ИНДЕКСА: 2026-02-08 16:54:27
+2026-02-08 16:54:27,037 - INFO - Источник данных: kvantovaya_biozoologiya_docs
+2026-02-08 16:54:27,038 - INFO - Модель: all-MiniLM-L6-v2, Размер чанка: 500, Перекрытие: 50
+2026-02-08 16:54:27,091 - INFO - Сканирование директории: kvantovaya_biozoologiya_docs
+2026-02-08 16:54:27,091 - INFO - Поддерживаемые расширения: .rst, .json, .txt, .py, .html, .md, .text
+2026-02-08 16:54:27,106 - INFO - Просканировано файлов: 31
+2026-02-08 16:54:27,107 - INFO - Текстовых файлов для обработки: 30
+2026-02-08 16:54:27,107 - INFO - Найдено новых файлов: 1
+2026-02-08 16:54:27,112 - INFO - Найдено измененных файлов: 29
+2026-02-08 16:54:27,113 - INFO - Обработка измененных файлов...
+2026-02-08 16:54:27,113 - INFO - Обновление файла: 01_osnovy_kvantovoi_biozoologii.txt
+2026-02-08 16:54:27,251 - INFO - Добавлено 1 чанков из 01_osnovy_kvantovoi_biozoologii.txt
+2026-02-08 16:54:27,251 - INFO - Обновление файла: 03_serebrokrylaya_lastochka.txt
+2026-02-08 16:54:27,307 - INFO - Добавлено 1 чанков из 03_serebrokrylaya_lastochka.txt
+2026-02-08 16:54:27,308 - INFO - Обновление файла: 04_kvantovyi_kompas_migriruyushih_vidov.txt
+2026-02-08 16:54:27,352 - INFO - Добавлено 1 чанков из 04_kvantovyi_kompas_migriruyushih_vidov.txt
+2026-02-08 16:54:27,352 - INFO - Обновление файла: 05_protokol_entengel.txt
+2026-02-08 16:54:27,713 - INFO - Добавлено 1 чанков из 05_protokol_entengel.txt
+2026-02-08 16:54:27,714 - INFO - Обновление файла: 06_biokvantovyi_paradoks_hofshtadtera.txt
+2026-02-08 16:54:27,795 - INFO - Добавлено 1 чанков из 06_biokvantovyi_paradoks_hofshtadtera.txt
+2026-02-08 16:54:27,795 - INFO - Обновление файла: 07_kristally_aragonita_u_mollyuskov.txt
+2026-02-08 16:54:27,866 - INFO - Добавлено 1 чанков из 07_kristally_aragonita_u_mollyuskov.txt
+2026-02-08 16:54:27,866 - INFO - Обновление файла: 08_teoriya_zoologicheskoi_dekogerencii.txt
+2026-02-08 16:54:27,949 - INFO - Добавлено 1 чанков из 08_teoriya_zoologicheskoi_dekogerencii.txt
+2026-02-08 16:54:27,950 - INFO - Обновление файла: 09_kvantovo-zoologicheskaya_observatoriya_montara.txt
+2026-02-08 16:54:28,034 - INFO - Добавлено 1 чанков из 09_kvantovo-zoologicheskaya_observatoriya_montara.txt
+2026-02-08 16:54:28,034 - INFO - Обновление файла: 10_reakciya_tu-shena.txt
+2026-02-08 16:54:28,094 - INFO - Добавлено 1 чанков из 10_reakciya_tu-shena.txt
+2026-02-08 16:54:28,094 - INFO - Обновление файла: 12_kvantovaya_epidemiologiya.txt
+2026-02-08 16:54:28,160 - INFO - Добавлено 1 чанков из 12_kvantovaya_epidemiologiya.txt
+2026-02-08 16:54:28,160 - INFO - Обновление файла: 13_kodeks_etiki_kvantovoi_biozoologii.txt
+2026-02-08 16:54:28,221 - INFO - Добавлено 1 чанков из 13_kodeks_etiki_kvantovoi_biozoologii.txt
+2026-02-08 16:54:28,221 - INFO - Обновление файла: 14_pribor_entanglometr.txt
+2026-02-08 16:54:28,298 - INFO - Добавлено 1 чанков из 14_pribor_entanglometr.txt
+2026-02-08 16:54:28,298 - INFO - Обновление файла: 15_fenomen_prizrachnoi_stai.txt
+2026-02-08 16:54:28,364 - INFO - Добавлено 1 чанков из 15_fenomen_prizrachnoi_stai.txt
+2026-02-08 16:54:28,365 - INFO - Обновление файла: 16_gen_qbz-1.txt
+2026-02-08 16:54:28,418 - INFO - Добавлено 1 чанков из 16_gen_qbz-1.txt
+2026-02-08 16:54:28,418 - INFO - Обновление файла: 17_kritika_so_storony_klassicheskoi_etologii.txt
+2026-02-08 16:54:28,476 - INFO - Добавлено 1 чанков из 17_kritika_so_storony_klassicheskoi_etologii.txt
+2026-02-08 16:54:28,477 - INFO - Обновление файла: 18_primenenie_v_biokomputinge.txt
+2026-02-08 16:54:28,539 - INFO - Добавлено 1 чанков из 18_primenenie_v_biokomputinge.txt
+2026-02-08 16:54:28,539 - INFO - Обновление файла: 19_kvantovoe_simbioticheskoe_kolco.txt
+2026-02-08 16:54:28,593 - INFO - Добавлено 1 чанков из 19_kvantovoe_simbioticheskoe_kolco.txt
+2026-02-08 16:54:28,593 - INFO - Обновление файла: 20_sindrom_razorvannoi_zaputannosti.txt
+2026-02-08 16:54:28,655 - INFO - Добавлено 1 чанков из 20_sindrom_razorvannoi_zaputannosti.txt
+2026-02-08 16:54:28,655 - INFO - Обновление файла: 21_vliyanie_solnechnyh_bur.txt
+2026-02-08 16:54:28,718 - INFO - Добавлено 1 чанков из 21_vliyanie_solnechnyh_bur.txt
+2026-02-08 16:54:28,719 - INFO - Обновление файла: 22_polevoi_eksperiment_horus-2026.txt
+2026-02-08 16:54:28,823 - INFO - Добавлено 1 чанков из 22_polevoi_eksperiment_horus-2026.txt
+2026-02-08 16:54:28,823 - INFO - Обновление файла: 23_artefakty_drevnih_civilizacii.txt
+2026-02-08 16:54:28,882 - INFO - Добавлено 1 чанков из 23_artefakty_drevnih_civilizacii.txt
+2026-02-08 16:54:28,882 - INFO - Обновление файла: 24_kvantovaya_pamyat_u_slonov.txt
+2026-02-08 16:54:28,940 - INFO - Добавлено 1 чанков из 24_kvantovaya_pamyat_u_slonov.txt
+2026-02-08 16:54:28,941 - INFO - Обновление файла: 25_zookvantovyi_shum.txt
+2026-02-08 16:54:28,996 - INFO - Добавлено 1 чанков из 25_zookvantovyi_shum.txt
+2026-02-08 16:54:28,997 - INFO - Обновление файла: 26_ekzobiozoologicheskii_aspekt.txt
+2026-02-08 16:54:29,060 - INFO - Добавлено 1 чанков из 26_ekzobiozoologicheskii_aspekt.txt
+2026-02-08 16:54:29,060 - INFO - Обновление файла: 27_matematicheskaya_model_veira-kovalskogo.txt
+2026-02-08 16:54:29,111 - INFO - Добавлено 1 чанков из 27_matematicheskaya_model_veira-kovalskogo.txt
+2026-02-08 16:54:29,111 - INFO - Обновление файла: 28_grib-provodnik.txt
+2026-02-08 16:54:29,163 - INFO - Добавлено 1 чанков из 28_grib-provodnik.txt
+2026-02-08 16:54:29,163 - INFO - Обновление файла: 29_kvantovaya_mimikriya.txt
+2026-02-08 16:54:29,228 - INFO - Добавлено 1 чанков из 29_kvantovaya_mimikriya.txt
+2026-02-08 16:54:29,229 - INFO - Обновление файла: 30_budushchee_discipliny.txt
+2026-02-08 16:54:29,288 - INFO - Добавлено 1 чанков из 30_budushchee_discipliny.txt
+2026-02-08 16:54:29,288 - INFO - Обновление файла: README.md
+2026-02-08 16:54:29,458 - INFO - Добавлено 4 чанков из README.md
+2026-02-08 16:54:29,458 - INFO - Обработка новых файлов...
+2026-02-08 16:54:29,458 - INFO - Добавление нового файла: 11_podvid_lastochka_montara_albinosa.txt
+2026-02-08 16:54:29,565 - INFO - Добавлено 1 чанков из 11_podvid_lastochka_montara_albinosa.txt
+2026-02-08 16:54:29,566 - INFO - Очистка удаленных файлов...
+2026-02-08 16:54:29,583 - INFO - ============================================================
+2026-02-08 16:54:29,584 - INFO - ОБНОВЛЕНИЕ ЗАВЕРШЕНО УСПЕШНО
+2026-02-08 16:54:29,595 - INFO - Добавлено чанков: 33
+2026-02-08 16:54:29,596 - INFO - Всего чанков в индексе: 33
+2026-02-08 16:54:29,598 - INFO - Время выполнения: 2.55 сек
+2026-02-08 16:54:29,598 - INFO - Скорость: 12.94 чанков/сек
+2026-02-08 16:54:29,611 - INFO - Ошибок: 0
+2026-02-08 16:54:29,612 - INFO - ============================================================
+2026-02-08 17:07:33,108 - INFO - Логирование настроено. Уровень: 20, Файл: ./logs/update_index.log
+2026-02-08 17:07:33,144 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-08 17:07:40,359 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-08 17:07:43,618 - INFO - ChromaDB инициализирована. Путь: ./chroma_db, модель: all-MiniLM-L6-v2
+2026-02-08 17:07:43,619 - INFO - Загружено состояние из ./state/index_state.json
+2026-02-08 17:07:43,625 - INFO - ============================================================
+2026-02-08 17:07:43,626 - INFO - НАЧАЛО ОБНОВЛЕНИЯ ИНДЕКСА: 2026-02-08 17:07:43
+2026-02-08 17:07:43,626 - INFO - Источник данных: kvantovaya_biozoologiya_docs
+2026-02-08 17:07:43,627 - INFO - Модель: all-MiniLM-L6-v2, Размер чанка: 500, Перекрытие: 50
+2026-02-08 17:07:43,642 - INFO - Сканирование директории: kvantovaya_biozoologiya_docs
+2026-02-08 17:07:43,642 - INFO - Поддерживаемые расширения: .py, .html, .rst, .text, .txt, .md, .json
+2026-02-08 17:07:43,658 - INFO - Просканировано файлов: 61
+2026-02-08 17:07:43,658 - INFO - Текстовых файлов для обработки: 31
+2026-02-08 17:07:43,659 - INFO - Найдено новых файлов: 30
+2026-02-08 17:07:43,663 - INFO - Найдено измененных файлов: 1
+2026-02-08 17:07:43,664 - INFO - Обработка измененных файлов...
+2026-02-08 17:07:43,665 - INFO - Обновление файла: README.md
+2026-02-08 17:07:43,757 - INFO - Удалено 4 старых чанков из README.md
+2026-02-08 17:07:44,191 - INFO - Добавлено 8 чанков из README.md
+2026-02-08 17:07:44,191 - INFO - Обработка новых файлов...
+2026-02-08 17:07:44,194 - INFO - Добавление нового файла: 31_kvantovye_nanotrubki_v_organizme_termita.txt
+2026-02-08 17:07:44,255 - INFO - Добавлено 1 чанков из 31_kvantovye_nanotrubki_v_organizme_termita.txt
+2026-02-08 17:07:44,255 - INFO - Добавление нового файла: 32_effekt_mitchell-einsteina.txt
+2026-02-08 17:07:44,307 - INFO - Добавлено 1 чанков из 32_effekt_mitchell-einsteina.txt
+2026-02-08 17:07:44,307 - INFO - Добавление нового файла: 33_kvantovaya_gomeostaza_mlekopitayushih.txt
+2026-02-08 17:07:44,379 - INFO - Добавлено 1 чанков из 33_kvantovaya_gomeostaza_mlekopitayushih.txt
+2026-02-08 17:07:44,379 - INFO - Добавление нового файла: 34_biofotonnyi_obmen_u_svetlyashihsya_nasekomyh.txt
+2026-02-08 17:07:44,435 - INFO - Добавлено 1 чанков из 34_biofotonnyi_obmen_u_svetlyashihsya_nasekomyh.txt
+2026-02-08 17:07:44,436 - INFO - Добавление нового файла: 35_kvantovaya_teoriya_stadnogo_infekta.txt
+2026-02-08 17:07:44,492 - INFO - Добавлено 1 чанков из 35_kvantovaya_teoriya_stadnogo_infekta.txt
+2026-02-08 17:07:44,492 - INFO - Добавление нового файла: 36_golubye_zony_kvantovoi_kogerentnosti.txt
+2026-02-08 17:07:44,546 - INFO - Добавлено 1 чанков из 36_golubye_zony_kvantovoi_kogerentnosti.txt
+2026-02-08 17:07:44,547 - INFO - Добавление нового файла: 37_ritmy_penrose-gamova_u_pereletnyh_ptic.txt
+2026-02-08 17:07:44,613 - INFO - Добавлено 1 чанков из 37_ritmy_penrose-gamova_u_pereletnyh_ptic.txt
+2026-02-08 17:07:44,613 - INFO - Добавление нового файла: 38_kvantovyi_metabolizm_holodnokrovnyh.txt
+2026-02-08 17:07:44,669 - INFO - Добавлено 1 чанков из 38_kvantovyi_metabolizm_holodnokrovnyh.txt
+2026-02-08 17:07:44,669 - INFO - Добавление нового файла: 39_effekt_obratnoi_kvantovoi_svyazi_u_primatov.txt
+2026-02-08 17:07:44,725 - INFO - Добавлено 1 чанков из 39_effekt_obratnoi_kvantovoi_svyazi_u_primatov.txt
+2026-02-08 17:07:44,725 - INFO - Добавление нового файла: 40_kvantovaya_immunologiya.txt
+2026-02-08 17:07:44,797 - INFO - Добавлено 1 чанков из 40_kvantovaya_immunologiya.txt
+2026-02-08 17:07:44,798 - INFO - Добавление нового файла: 41_polyarizaciya_kvantovogo_polya_u_stadnyh_kopytnyh.txt
+2026-02-08 17:07:44,849 - INFO - Добавлено 1 чанков из 41_polyarizaciya_kvantovogo_polya_u_stadnyh_kopytnyh.txt
+2026-02-08 17:07:44,849 - INFO - Добавление нового файла: 42_hameleony_kvantovoi_superpozicii.txt
+2026-02-08 17:07:44,905 - INFO - Добавлено 1 чанков из 42_hameleony_kvantovoi_superpozicii.txt
+2026-02-08 17:07:44,906 - INFO - Добавление нового файла: 43_kvantovaya_gidrodinamika_stai.txt
+2026-02-08 17:07:45,010 - INFO - Добавлено 1 чанков из 43_kvantovaya_gidrodinamika_stai.txt
+2026-02-08 17:07:45,010 - INFO - Добавление нового файла: 44_effekt_kvantovogo_usileniya_chutya_u_hischnikov.txt
+2026-02-08 17:07:45,060 - INFO - Добавлено 1 чанков из 44_effekt_kvantovogo_usileniya_chutya_u_hischnikov.txt
+2026-02-08 17:07:45,060 - INFO - Добавление нового файла: 45_kvantovye_bionichevye_struktury.txt
+2026-02-08 17:07:45,111 - INFO - Добавлено 1 чанков из 45_kvantovye_bionichevye_struktury.txt
+2026-02-08 17:07:45,112 - INFO - Добавление нового файла: 46_teoriya_kvantovogo_parazitizma.txt
+2026-02-08 17:07:45,170 - INFO - Добавлено 1 чанков из 46_teoriya_kvantovogo_parazitizma.txt
+2026-02-08 17:07:45,170 - INFO - Добавление нового файла: 47_kvantovaya_gerontologiya_jivotnyh.txt
+2026-02-08 17:07:45,216 - INFO - Добавлено 1 чанков из 47_kvantovaya_gerontologiya_jivotnyh.txt
+2026-02-08 17:07:45,216 - INFO - Добавление нового файла: 48_bio-kvantovye_sensornye_seti_u_nasekomyh.txt
+2026-02-08 17:07:45,273 - INFO - Добавлено 1 чанков из 48_bio-kvantovye_sensornye_seti_u_nasekomyh.txt
+2026-02-08 17:07:45,273 - INFO - Добавление нового файла: 49_kvantovaya_transkripciya_dnk_u_ptic.txt
+2026-02-08 17:07:45,326 - INFO - Добавлено 1 чанков из 49_kvantovaya_transkripciya_dnk_u_ptic.txt
+2026-02-08 17:07:45,328 - INFO - Добавление нового файла: 50_effekt_holonomicheskoi_pamyati_u_delfinov.txt
+2026-02-08 17:07:45,386 - INFO - Добавлено 1 чанков из 50_effekt_holonomicheskoi_pamyati_u_delfinov.txt
+2026-02-08 17:07:45,386 - INFO - Добавление нового файла: 51_kvantovaya_termodinamika_ekosistem.txt
+2026-02-08 17:07:45,436 - INFO - Добавлено 1 чанков из 51_kvantovaya_termodinamika_ekosistem.txt
+2026-02-08 17:07:45,436 - INFO - Добавление нового файла: 52_psi-kvantovaya_svyaz_u_socialnyh_nasekomyh.txt
+2026-02-08 17:07:45,500 - INFO - Добавлено 1 чанков из 52_psi-kvantovaya_svyaz_u_socialnyh_nasekomyh.txt
+2026-02-08 17:07:45,501 - INFO - Добавление нового файла: 53_kvantovaya_evoluciya_simbiogeneza.txt
+2026-02-08 17:07:45,575 - INFO - Добавлено 1 чанков из 53_kvantovaya_evoluciya_simbiogeneza.txt
+2026-02-08 17:07:45,575 - INFO - Добавление нового файла: 54_bio-kvantovye_kristally_v_organizme_golubei.txt
+2026-02-08 17:07:45,630 - INFO - Добавлено 1 чанков из 54_bio-kvantovye_kristally_v_organizme_golubei.txt
+2026-02-08 17:07:45,630 - INFO - Добавление нового файла: 55_kvantovaya_nejroplasticnost.txt
+2026-02-08 17:07:45,682 - INFO - Добавлено 1 чанков из 55_kvantovaya_nejroplasticnost.txt
+2026-02-08 17:07:45,682 - INFO - Добавление нового файла: 56_effekt_kvantovoi_sinhronizacii_cirkadnyh_ritmov.txt
+2026-02-08 17:07:45,792 - INFO - Добавлено 1 чанков из 56_effekt_kvantovoi_sinhronizacii_cirkadnyh_ritmov.txt
+2026-02-08 17:07:45,792 - INFO - Добавление нового файла: 57_kvantovaya_bioakustika_kitov.txt
+2026-02-08 17:07:45,846 - INFO - Добавлено 1 чанков из 57_kvantovaya_bioakustika_kitov.txt
+2026-02-08 17:07:45,846 - INFO - Добавление нового файла: 58_protokol_kvantovoi_adaptacii_k_srede.txt
+2026-02-08 17:07:45,891 - INFO - Добавлено 1 чанков из 58_protokol_kvantovoi_adaptacii_k_srede.txt
+2026-02-08 17:07:45,892 - INFO - Добавление нового файла: 59_kvantovaya_ekologiya_populyacionnyh_voln.txt
+2026-02-08 17:07:45,947 - INFO - Добавлено 1 чанков из 59_kvantovaya_ekologiya_populyacionnyh_voln.txt
+2026-02-08 17:07:45,948 - INFO - Добавление нового файла: 60_kvantovaya_zoosemiotika.txt
+2026-02-08 17:07:45,993 - INFO - Добавлено 1 чанков из 60_kvantovaya_zoosemiotika.txt
+2026-02-08 17:07:45,993 - INFO - Очистка удаленных файлов...
+2026-02-08 17:07:46,012 - INFO - ============================================================
+2026-02-08 17:07:46,013 - INFO - ОБНОВЛЕНИЕ ЗАВЕРШЕНО УСПЕШНО
+2026-02-08 17:07:46,013 - INFO - Добавлено чанков: 38
+2026-02-08 17:07:46,014 - INFO - Всего чанков в индексе: 67
+2026-02-08 17:07:46,014 - INFO - Время выполнения: 2.38 сек
+2026-02-08 17:07:46,015 - INFO - Скорость: 15.97 чанков/сек
+2026-02-08 17:07:46,015 - INFO - Ошибок: 0
+2026-02-08 17:07:46,016 - INFO - ============================================================

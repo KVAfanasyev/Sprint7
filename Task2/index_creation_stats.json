@@ -1,0 +1,8 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "knowledge_base": "./warm_pages/themes",
+  "total_chunks": 5640,
+  "total_files": 90,
+  "generation_time_seconds": 125.86679983139038,
+  "generation_time_minutes": 2.0977799971898397
+}

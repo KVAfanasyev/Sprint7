@@ -1,0 +1,53 @@
+[
+  {
+    "start_time": "2026-02-08T16:44:51.131460",
+    "config": {
+      "model": "all-MiniLM-L6-v2",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "collection": "knowledge_base"
+    },
+    "new_files": 31,
+    "modified_files": 0,
+    "new_chunks": 34,
+    "errors": [],
+    "success": true,
+    "total_chunks_in_index": 34,
+    "end_time": "2026-02-08T16:44:54.841045",
+    "duration_seconds": 3.72
+  },
+  {
+    "start_time": "2026-02-08T16:54:27.041712",
+    "config": {
+      "model": "all-MiniLM-L6-v2",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "collection": "knowledge_base"
+    },
+    "new_files": 1,
+    "modified_files": 29,
+    "new_chunks": 33,
+    "errors": [],
+    "success": true,
+    "total_chunks_in_index": 33,
+    "end_time": "2026-02-08T16:54:29.582344",
+    "duration_seconds": 2.55
+  },
+  {
+    "start_time": "2026-02-08T17:07:43.628058",
+    "config": {
+      "model": "all-MiniLM-L6-v2",
+      "chunk_size": 500,
+      "chunk_overlap": 50,
+      "collection": "knowledge_base"
+    },
+    "new_files": 30,
+    "modified_files": 1,
+    "new_chunks": 38,
+    "errors": [],
+    "success": true,
+    "total_chunks_in_index": 67,
+    "end_time": "2026-02-08T17:07:46.012223",
+    "duration_seconds": 2.38
+  }
+]

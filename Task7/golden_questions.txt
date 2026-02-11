@@ -1,0 +1,85 @@
+# known_topics
+---
+question: Что такое квантовая биозоология?
+expected_keywords: междисциплинарная, когерентности, запутанности, туннелирования, Элиас Вейр, 2025
+difficulty: easy
+category: основы
+---
+question: Что такое эффект Вейра?
+expected_keywords: феномен, квантовой запутанности, стайные птицы, сереброкрылых ласточек, рыб, 10 км
+difficulty: easy
+category: феномены
+---
+question: Что такое сереброкрылая ласточка?
+expected_keywords: долина Монтара, нейронная квантовая когерентность, стае, наносекунд
+difficulty: medium
+category: виды
+---
+question: Как работает квантовый компас у мигрирующих видов?
+expected_keywords: квантовое туннелирование, ионы магния, магнитное поле, угри, черепахи
+difficulty: medium
+category: навигация
+---
+question: Что такое протокол Энтэнгель?
+expected_keywords: измерение, квантовой запутанности, ЭЭГ-сканирование, анализ корреляций
+difficulty: medium
+category: методы
+---
+question: Какие существуют критические взгляды на квантовую биозоологию?
+expected_keywords: критика, классической этологии, спекулятивная, сигнальные системы
+difficulty: hard
+category: критика
+---
+question: Что такое квантовое симбиотическое кольцо?
+expected_keywords: гипотетическая структура, экосистемы, растения, грибы, животные, квантовое поле
+difficulty: hard
+category: экосистемы
+---
+question: Как солнечные бури влияют на мигрирующих животных?
+expected_keywords: солнечная активность, декогеренция, навигация, магнитное поле
+difficulty: medium
+category: внешние факторы
+
+# unknown_topics
+---
+question: Какие практические приложения квантовой биозоологии в сельском хозяйстве?
+expected_keywords:
+difficulty: unknown
+category: применение
+should_fail: True
+---
+question: Каковы подробности эксперимента Хорус-2026?
+expected_keywords: эксперимент, Хорус-2026, ласточки, Атлантический океан
+difficulty: medium
+category: эксперименты
+should_fail: True
+---
+question: Как лечится синдром разорванной запутанности?
+expected_keywords: квантовая имитация, полевые условия
+difficulty: hard
+category: патологии
+should_fail: False
+---
+question: Какие конкретные генетические модификации предлагаются для усиления эффекта Вейра?
+expected_keywords:
+difficulty: hard
+category: генетика
+should_fail: True
+---
+question: Какие экономические выгоды от применения биокомпьютинга с ласточками?
+expected_keywords: биокомпьютинг
+difficulty: unknown
+category: экономика
+should_fail: True
+
+# edge_cases
+---
+question: Какие этические проблемы возникают в квантовой биозоологии?
+expected_keywords: кодекс этики, эксперименты, декогеренция, квантовый стресс
+difficulty: medium
+category: этика
+---
+question: Как квантовая биозоология связана с экзобиологией?
+expected_keywords: экзобиозоологический, других планетах, биополей
+difficulty: hard
+category: смежные науки

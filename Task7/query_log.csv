@@ -1,0 +1,2 @@
+timestamp,query,found_chunks,answer_length,is_successful,sources,response_time,rag_mode,security_blocks
+2026-02-11T12:17:53.081281,Как квантовая биозоология связана с экзобиологией?,True,3546,True,53_kvantovaya_evoluciya_simbiogeneza.txt 40_kvantovaya_immunologiya.txt 24_kvantovaya_pamyat_u_slonov.txt,85.7,True,0

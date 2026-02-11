@@ -1,0 +1,10 @@
+{
+  "total_questions": 15,
+  "passed_tests": 5,
+  "pass_rate": 33.33,
+  "avg_quality_score": 1.73,
+  "avg_coverage": 29.45,
+  "category_stats": {
+    "основы": {
+      "total": 1,
+      "passed": 
